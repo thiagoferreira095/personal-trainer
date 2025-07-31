@@ -1,0 +1,26 @@
+.box-hero {
+    width: 100%;
+    background: var(--color-primary);
+    display: flex;
+    justify-content: center; // centraliza o container
+    align-items: center;
+    padding: 5rem 2rem;
+
+    .box-hero-content-left {
+
+        height: 650px;
+        background: red;
+    }
+
+    .box-hero-content-right {
+        height: 650px;
+        background: yellow;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .box-hero .box-hero-content-left {
+        margin-bottom: 10px;
+    }
+}

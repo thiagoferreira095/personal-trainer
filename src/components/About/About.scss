@@ -1,0 +1,109 @@
+.box-about {
+    width: 100%;
+    background: #090c11;
+    display: flex;
+    justify-content: center; // centraliza o container
+    align-items: center;
+    padding: 5rem 1rem;
+
+    h2 {
+        font-size: 1.8rem;
+        text-align: center;
+        color: var(--color-white);
+        margin: 3rem 0rem;
+
+        .span-destaque {
+            color: var(--color-secondary);
+        }
+    }
+
+    .box-about-content {
+        display: flex;
+        justify-content: center;
+        
+        .card {
+            width: 32%;
+            height: 450px;
+            margin-left: 5px;
+            border: var(--border);
+
+            .card-header {
+                height: 120px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 20px;
+                background: var(--color-primary);
+                border-bottom: var(--border);
+
+
+                h3 {
+                    color: var(--color-white);
+                    margin-left: 10px;
+                    font-size: 1rem;
+                }
+        }
+
+            .card-body {
+                height: 325px;
+                display: flex;
+                align-items: center;
+                background: var(--color-primary);
+
+                p {
+                    font-size: 1.3rem;
+                    text-align: center;
+                    color: var(--color-white);
+                }
+            }
+        }
+    }
+
+    .btn-cta-about {
+        width: 400px;
+        padding: 20px;
+        margin: 50px auto;
+        text-align: center;
+        font-size: 1.1rem;
+        color: var(--color-primary);
+        font-weight: var(--font-weight-cta);
+        background: var(--color-secondary);
+        border: 1px solid var(--color-secondary);
+        border-radius: var(--border-radius);
+        transition: all 0.3s ease;
+
+        &:hover {
+            background: var(--color-primary);
+            color: var(--color-white);
+            border: var(--border);
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .box-about {
+
+        .box-about-content {
+            display: block;
+            
+            .card {
+                width: 100%;
+                height: 450px;
+                margin: 0px 0px 30px 0px;
+
+                .card-body {
+                    padding: 20px;
+                    p {
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+
+        .btn-cta-about {
+            width: 300px;
+            font-size: 1rem;
+            margin: 25px auto;
+        }
+    }
+}
