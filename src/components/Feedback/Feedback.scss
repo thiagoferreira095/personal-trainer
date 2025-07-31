@@ -1,0 +1,38 @@
+.box-feedback {
+    width: 100%;
+    height: 400px;
+    background: var(--color-secondary);
+
+    .box-feedback-content {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        align-items: center;
+
+        .card-feed {
+            width: 25%;
+            height: 350px;
+            margin: 0 2px;
+            background: #e2e1e1;
+            border-radius: 2px;
+        }
+    }
+}
+
+
+@media (max-width: 768px) {
+    .box-feedback {
+        height: auto;
+        padding: 3rem 1rem;
+
+        .box-feedback-content {
+            height: auto;
+            display: block;
+
+            .card-feed {
+                width: 100%;
+                margin: 10px 0px;
+            }
+        }
+    }
+}
