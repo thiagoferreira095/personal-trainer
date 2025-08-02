@@ -1,0 +1,16 @@
+.box-plans {
+    width: 100%;
+    height: 100vh;
+    background: var(--color-primary);
+
+        .title-plans {
+        font-size: 1.8rem;
+        text-align: center;
+        color: var(--color-white);
+        margin: 5rem 0rem;
+
+        .span-destaque {
+            color: var(--color-secondary);
+        }
+    }
+}

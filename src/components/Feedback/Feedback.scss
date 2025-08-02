@@ -1,7 +1,7 @@
 .box-feedback {
     width: 100%;
     height: 400px;
-    background: var(--color-secondary);
+    background: linear-gradient(340deg,#090C11, #090C11, #EC7C0D);
 
     .box-feedback-content {
         width: 100%;
@@ -13,14 +13,78 @@
             width: 25%;
             height: 350px;
             margin: 0 2px;
-            background: #e2e1e1;
-            border-radius: 2px;
+            border-radius: 8px;
+
+            .card-feed-header {
+                width: 100%;
+                height: 40%;
+                background: var(--color-primary);
+                border-radius: 6px 6px 0px 0px;
+                border-bottom: var(--border);
+                display: flex;
+
+                .card-header-icon {
+                    width: 35%;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-right: var(--border);
+
+                    .box-icon {
+                        width: 70%;
+                        height: 50%;
+                        border-radius: 100%;  
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+
+                .card-header-star {
+                    width: 65%;
+                    height: 100%;
+                    border-radius: 0px 6px 0px 0px;
+
+                    .box-star-name {
+                        width: 100%;
+                        height: 45%;
+                        display: flex;
+                        align-items: flex-end;
+
+                        span {
+                            color: var(--color-white);
+                            font-size: 1.1rem;
+                            font-weight: 700;
+                            margin-left: 10px;
+                        }
+                    }
+
+                    .box-star-estrela {
+                        width: 100%;
+                        height: 55%;
+                        padding: 10px 0px 0px 10px;
+                    }
+                }
+            }
+
+            .card-feed-body {
+                width: 100%;
+                height: 60%;
+                background: var(--color-primary);
+                border-radius: 0px 0px 6px 6px;
+                padding: 20px;
+                p {
+                    font-size: 1.1rem;
+                    color: var(--color-white);
+                }
+            }
         }
     }
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 950px) {
     .box-feedback {
         height: auto;
         padding: 3rem 1rem;

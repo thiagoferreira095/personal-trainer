@@ -6,7 +6,7 @@ import './About.scss';
 
 const About = () => {
     return (
-        <section className="box-about">
+        <section className="box-about" id="beneficit">
             <div className="container">
                 <div className="row">
                     <h2 className="title-beneficit">Temos <span className="span-destaque">benefícios</span> incríveis para <span className="span-destaque">você</span></h2>
