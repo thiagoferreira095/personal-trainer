@@ -1,0 +1,26 @@
+.box-footer {
+    width: 100%;
+    height: 90px;
+    background: #090C11;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    p {
+        color: var(--color-white);
+        text-align: center;
+    }
+
+    .link-dev {
+        color: var(--color-secondary);
+    }
+}
+
+@media (max-width: 950px) {
+    .box-footer {
+        padding: 4rem 2rem;
+        p {
+            font-size: 0.9rem;
+        }
+    }
+}

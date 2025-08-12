@@ -1,7 +1,8 @@
 .box-plans {
     width: 100%;
-    height: 100vh;
+    height: auto;
     background: var(--color-primary);
+    padding: 5rem 1rem;
 
         .title-plans {
         font-size: 1.8rem;
@@ -11,6 +12,119 @@
 
         .span-destaque {
             color: var(--color-secondary);
+        }
+    }
+
+    .box-plans-content {
+        width: 100%;
+        height: auto;
+        display: flex;
+
+        .card-plans {
+            width: 33%;
+            height: 800px;
+            background: #090C11;
+            display: flex;
+            justify-content: center;
+            border-radius: 5px;
+            flex-wrap: wrap;
+            padding: 0 1.5rem;
+            .box-day {
+                width: 40%;
+                height: 40px;
+                background: var(--color-secondary);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 0px 0px 5px 5px;
+                span {
+                    font-weight: 700;
+                    text-align: center;
+                }
+            }
+
+            .box-day-mid {
+                width: 70%;
+                background: var(--color-secondary);
+            }
+
+            .card-plans-content {
+                width: 100%;
+                height: 700px;
+                border-radius: 0px 0px 6px 6px;
+                
+                .box-type-plans {
+                    width: 100%;
+                    height: 50px;
+                    display: flex;
+                    align-items: flex-end;
+                    .span-type-plans {
+                        color: var(--color-secondary);
+                        font-weight: 700;
+                    }
+                }
+
+                .box-content-plans {
+                    width: 100%;
+                    height: 130px;
+                    padding-top: 1rem;
+                    p {
+                        color: var(--color-white);
+                    }
+                }
+
+                .box-value-plans {
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    margin-top: 4.5rem;
+
+                    .box-icon-value {
+                        width: 50px;
+                        height: 50px;
+                        background: var(--color-secondary);
+                        border-radius: 50%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+
+                    .span-value-plan {
+                        font-weight: 700;
+                        color: var(--color-white);
+                        margin-left: 10px;
+                    }
+                }
+                    .line-divider {
+                        width: 100%;
+                        height: 1px;
+                        margin-top: 2rem;
+                        background: var(--color-white);
+                    }
+            }
+        }
+
+        .card-mid {
+            margin: 0px 10px;
+        }
+    }
+}
+
+@media (max-width: 950px) {
+.box-plans {
+    .box-plans-content {
+        display: flex;
+        flex-wrap: wrap;
+            .card-plans {
+                    width: 100%;
+
+                    .box-day-mid {
+                        width: 90%;
+                    }
+                }
+            .card-mid {
+                margin: 1rem 0;
+            }
         }
     }
 }

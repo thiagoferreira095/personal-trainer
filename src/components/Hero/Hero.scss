@@ -1,26 +1,108 @@
 .box-hero {
     width: 100%;
-    background: var(--color-primary);
+    background: url('../../assets/images/background-hero2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     display: flex;
     justify-content: center; // centraliza o container
     align-items: center;
     padding: 5rem 2rem;
+    overflow-y: hidden;
 
     .box-hero-content-left {
-
+        width: 60%;
         height: 650px;
-        background: red;
+        padding: 1rem;
+
+        .hero-header {
+            width: 100%;
+            height: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+
+            .title-hero {
+                color: var(--color-secondary);
+                font-size: 2rem;
+                margin-bottom: 10px;
+            }
+
+            p {
+                color: rgb(199, 197, 197);
+            }
+        }
+
+        .hero-cta {
+            width: 100%;
+            height: 50%;
+            padding-top: 3rem;
+
+            .btn-hero {
+                padding: 20px;
+                border-radius: 2px;
+                font-weight: 700;
+                transition: all 0.3s ease;
+            }
+            
+            .btn-cta {
+                background: var(--color-secondary);
+                color: var(--color-primary);
+                margin-right: 1rem;
+                border: 1px solid var(--color-secondary);
+                
+                &:hover {
+                    color: var(--color-white);
+                }
+            }
+
+            .btn-beneficit {
+                background: var(--color-primary);
+                border: var(--border);
+                color: var(--color-white);
+
+                &:hover {
+                    background: #090C11;
+                }
+            }
+        }
     }
 
     .box-hero-content-right {
-        height: 650px;
-        background: yellow;
+        width: 40%;
+        height: 600px;
+        border: 10px solid #090C11;
+        padding: 0;
+        .video-hero {
+            width: 100%;
+            height: 100%;
+        }
     }
 }
 
 
 @media (max-width: 950px) {
     .box-hero .box-hero-content-left {
-        margin-bottom: 10px;
+        width: 100%;
+        margin-bottom: 5rem;
+        height: 300px;
+        margin-top: 1rem;
+
+        .hero-header {
+            height: 100%;
+            justify-content: center;
+            .title-hero {
+                font-size: 1.8rem;
+            }
+        }
+
+        .hero-cta {
+            display: none;
+        }
+    }
+
+    .box-hero .box-hero-content-right {
+        width: 100%;
+        height: 400px;
     }
 }

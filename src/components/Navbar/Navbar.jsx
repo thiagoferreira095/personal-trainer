@@ -14,10 +14,10 @@ const Navbar = () => {
 
                 <div className="box-list">
                     <ul>
-                        <li><a href="#!">Início</a></li>
+                        <li><a href="#home">Início</a></li>
                         <li><a href="#beneficit">Benefício</a></li>
-                        <li><a href="#!">Planos</a></li>
-                        <li><a href="#!" className="btn-cta">Entre em contato</a></li>
+                        <li><a href="#plans">Planos</a></li>
+                        <li><a href="https://wa.me/5581991989228" className="btn-cta">Entre em contato</a></li>
                     </ul>
                 </div>
             </div>
