@@ -17,7 +17,7 @@ const Navbar = () => {
                         <li><a href="#home">Início</a></li>
                         <li><a href="#beneficit">Benefício</a></li>
                         <li><a href="#plans">Planos</a></li>
-                        <li><a href="https://wa.me/5581992292160?text=Gostaria de saber mais sobre a consultoria" className="btn-cta">Entre em contato</a></li>
+                        <li><a href="https://wa.me/5581992292160?text=Olá, gostaria de saber mais sobre a consultoria e qual o primeiro passo para fazer parte do team ✅" className="btn-cta">Entre em contato</a></li>
                     </ul>
                 </div>
             </div>

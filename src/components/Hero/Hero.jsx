@@ -15,7 +15,7 @@ const Hero = () => {
                             <p>Meu método é simples, leve e focado em resultados reais. Não acredito em pressa, acredito em constância.</p>
                         </div>
                         <div className="hero-cta">
-                            <a href="https://wa.me/5581992292160?text=Gostaria de saber mais sobre a consultoria" className="btn-hero btn-cta">Fale comigo agora mesmo</a>
+                            <a href="https://wa.me/5581992292160?text=Olá, gostaria de saber mais sobre a consultoria e qual o primeiro passo para fazer parte do team ✅" className="btn-hero btn-cta">Fale comigo agora mesmo</a>
                             <a href="#beneficit" className="btn-hero btn-beneficit">Conheça os benefícios</a>
                         </div>
                     </div>
