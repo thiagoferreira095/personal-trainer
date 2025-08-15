@@ -7,7 +7,7 @@ const Navbar = () => {
         <nav className="navbar">
             <div className="box-menu container">
                 <div className="box-logo">
-                    <a href="#!">
+                    <a href="#home">
                         <img src={Logo} alt="Logo do site" width={80} height={60} />
                     </a>
                 </div>
@@ -17,7 +17,7 @@ const Navbar = () => {
                         <li><a href="#home">Início</a></li>
                         <li><a href="#beneficit">Benefício</a></li>
                         <li><a href="#plans">Planos</a></li>
-                        <li><a href="https://wa.me/5581991989228" className="btn-cta">Entre em contato</a></li>
+                        <li><a href="https://wa.me/5581992292160" className="btn-cta">Entre em contato</a></li>
                     </ul>
                 </div>
             </div>

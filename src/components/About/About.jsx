@@ -42,7 +42,7 @@ const About = () => {
                             </div>
                         </div>
                     </div>
-                    <a href="#!" className="btn-cta-about">Comece a transformação agora mesmo</a>
+                    <a href="https://wa.me/5581992292160" className="btn-cta-about">Comece a transformação agora mesmo</a>
                 </div>
             </div>
         </section>
